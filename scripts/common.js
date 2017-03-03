@@ -47,7 +47,7 @@ require(['underscore', 'jquery', 'd3', 'clustergrammer'], function (_, $, d3, cl
 
           // d3.select(cgm.params.root + ' .wait_message').remove();
 
-
+          debugger;
 
       });
 
