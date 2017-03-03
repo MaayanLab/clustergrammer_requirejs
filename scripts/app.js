@@ -5,10 +5,13 @@ require.config({
       'underscore': 'underscore-min'
        },
     shim: {
-           leaflet: {
+            leaflet: {
               exports: 'L'
-               },
-        }
+                     },
+            underscore: {
+              exports: '_'
+            }
+          }
       })
 
 require(['leaflet', 'underscore'], function (L, _) {
@@ -29,6 +32,5 @@ require(['leaflet', 'underscore'], function (L, _) {
   //    }).addTo(map);
 
     console.log(_)
-    debugger;
 
   }); // require
