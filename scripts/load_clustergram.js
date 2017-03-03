@@ -40,7 +40,7 @@ require(['underscore', 'jquery', 'd3', 'clustergrammer'], function (_, $, d3, cl
 
           // check_setup_enrichr(cgm);
 
-          // d3.select(cgm.params.root + ' .wait_message').remove();
+          d3.select(cgm.params.root + ' .wait_message').remove();
 
           console.log('loading clustergrammer')
 
